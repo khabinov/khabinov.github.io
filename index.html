@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="page">
+  {% for post in site.posts limit:1 %}
+  <div class="post">
+    <h1>{{ post.title }}</h1>
+
+    {{ post.content }}
+
+    <span>{{ post.date | date_to_string }}</span>
+  </div>
+  {% endfor %}
+</div>

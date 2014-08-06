@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #eee8d5;
+  color: #586e75;
+}
+
+body {
+  margin: 0;
+}
+
+/* unvisited link */
+a:link {
+  color: #839496;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #839496;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #839496;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #839496;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #839496;
+  padding-bottom: 5px;
+}
+
+.header-menu {
+  padding-top:    10px;
+  padding-bottom: 10px;
+  background-color: #eee8d5;
+}
+
+.page-content {
+  max-width: 640px;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.page {
+}
+
+.post {
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+}

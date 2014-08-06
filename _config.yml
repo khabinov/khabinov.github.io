@@ -1,0 +1,6 @@
+markdown:         redcarpet
+permalink:        pretty
+title:            funbuttrue
+pages_list:
+  archive: '/archive/'
+  about: '/about/'
